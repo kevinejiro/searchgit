@@ -35,7 +35,7 @@ Additions
 
 ### Link
 
-- Live Site URL: [Click here](https://#)
+- Live Site URL: [Click here](https://nervous-hugle-48e783.netlify.app)
 
 ### Built with
 
@@ -53,7 +53,7 @@ Additions
 ### Installation
 
 1. Install [**Node JS**](https://nodejs.org/en/).
-1. To Clone the Run `npm clone https://github.com/`
+1. To Clone the Run `npm clone https://github.com/kevinejiro/searchgit.git`
 1. [**cd**] into the root of the **project directory**.
 1. Run `yarn` on the terminal to install Dependecies
 
