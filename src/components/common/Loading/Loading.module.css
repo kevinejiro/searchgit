@@ -1,0 +1,23 @@
+.loading-wrapper {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes arrows {
+  0%,
+  100% {
+    color: black;
+    transform: translateY(0);
+  }
+  50% {
+    color: var(--primary-color);
+    transform: translateY(20px);
+  }
+}
+
+.loading-wrapper-item {
+  --delay: 0s;
+  animation: arrows 1s var(--delay) infinite ease-in;
+}

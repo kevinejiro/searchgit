@@ -1,0 +1,474 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultTable /> renders the component without error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <article
+        class="result-table-container"
+        style="opacity: 0;"
+      >
+        <div
+          class="result-table-main"
+        >
+          <aside
+            class="result-table-filter-bar"
+          >
+            <div
+              class="result-table-filter-bar-header"
+            >
+              <div
+                class="svgrapper"
+              >
+                <svg
+                  viewBox="0 0 18 18"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="b"
+                    d="M13.119 10.691h-1.214V7.043a.405.405 0 10-.81 0v3.643H9.876a.4.4 0 00-.4.4v6.476a.4.4 0 00.4.4h1.214v2.429a.405.405 0 10.81 0v-2.415h1.214a.4.4 0 00.4-.4v-6.481a.4.4 0 00-.395-.404zM6.643 4.619H5.429V3.4a.4.4 0 10-.81 0v1.219H3.4a.4.4 0 00-.4.4v9.714a.4.4 0 00.4.4h1.219v3.238a.4.4 0 10.81 0v-3.228h1.214a.4.4 0 00.4-.4V5.024a.4.4 0 00-.4-.405zM19.595 7.452h-1.214V3.4a.405.405 0 00-.81 0v4.052h-1.219a.4.4 0 00-.4.4v9.31a.4.4 0 00.4.4h1.214V19.6a.405.405 0 00.81 0v-2.029h1.214a.4.4 0 00.4-.4V7.857a.4.4 0 00-.395-.405z"
+                    transform="translate(-122 -354) translate(119 351)"
+                  />
+                </svg>
+              </div>
+              <span>
+                SORT BY
+              </span>
+            </div>
+            <div
+              class="result-table-filter-bar-body"
+            >
+              <div
+                class="filter-bar-body-item active"
+              >
+                <img
+                  alt="xwthumbnail"
+                  src="contributorsActive.svg"
+                />
+                <span>
+                  Users
+                </span>
+              </div>
+              <div
+                class="filter-bar-body-item false"
+              >
+                <img
+                  alt="thumbs Up"
+                  src="repo.svg"
+                />
+                <span>
+                  Orgs
+                </span>
+              </div>
+            </div>
+          </aside>
+          <div
+            class="result-table-body-container"
+          >
+            <section
+              class="result-table-body-container"
+            >
+              <div
+                class="table-body-header"
+              >
+                <h1>
+                  Results
+                </h1>
+                <aside
+                  class="result-table-filter-bar vertical"
+                >
+                  <div
+                    class="result-table-filter-bar-header"
+                  >
+                    <svg
+                      viewBox="0 0 18 18"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        class="b"
+                        d="M13.119 10.691h-1.214V7.043a.405.405 0 10-.81 0v3.643H9.876a.4.4 0 00-.4.4v6.476a.4.4 0 00.4.4h1.214v2.429a.405.405 0 10.81 0v-2.415h1.214a.4.4 0 00.4-.4v-6.481a.4.4 0 00-.395-.404zM6.643 4.619H5.429V3.4a.4.4 0 10-.81 0v1.219H3.4a.4.4 0 00-.4.4v9.714a.4.4 0 00.4.4h1.219v3.238a.4.4 0 10.81 0v-3.228h1.214a.4.4 0 00.4-.4V5.024a.4.4 0 00-.4-.405zM19.595 7.452h-1.214V3.4a.405.405 0 00-.81 0v4.052h-1.219a.4.4 0 00-.4.4v9.31a.4.4 0 00.4.4h1.214V19.6a.405.405 0 00.81 0v-2.029h1.214a.4.4 0 00.4-.4V7.857a.4.4 0 00-.395-.405z"
+                        transform="translate(-122 -354) translate(119 351)"
+                      />
+                    </svg>
+                    <span>
+                      SORT BY
+                    </span>
+                  </div>
+                  <div
+                    class="result-table-filter-bar-body"
+                  >
+                    <div
+                      class="filter-bar-body-item active"
+                    >
+                      <img
+                        alt="thumbnail"
+                        src="contributorsActive.svg"
+                      />
+                      <span>
+                        Users
+                      </span>
+                    </div>
+                    <div
+                      class="filter-bar-body-item false"
+                    >
+                      <img
+                        alt="thumbs Up"
+                        src="repo.svg"
+                      />
+                      <span>
+                        Orgs
+                      </span>
+                    </div>
+                  </div>
+                </aside>
+                <div
+                  class="table-view-toggle-wrapper"
+                  style="visibility: hidden;"
+                >
+                  <span>
+                    VIEW
+                  </span>
+                  <div
+                    class="table-view-toggle"
+                  >
+                    <div
+                      class="table-view-toggle-item left active"
+                    >
+                      <span>
+                        List
+                      </span>
+                      <div
+                        class="table-view-toggle-item-img"
+                      >
+                        <svg
+                          viewBox="0 0 26.25 30"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g
+                            transform="translate(-1)"
+                          >
+                            <path
+                              class="a"
+                              d="M25.375 0h-22.5A1.875 1.875 0 001 1.875v11.25A1.875 1.875 0 002.875 15h22.5a1.875 1.875 0 001.875-1.875V1.875A1.875 1.875 0 0025.375 0z"
+                            />
+                            <path
+                              class="a"
+                              d="M0 0H26V3H0z"
+                              transform="translate(1 19)"
+                            />
+                            <path
+                              class="a"
+                              d="M0 0H26V4H0z"
+                              transform="translate(1 26)"
+                            />
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      class="table-view-toggle-item "
+                    >
+                      <span>
+                        Grid
+                      </span>
+                      <div
+                        class="table-view-toggle-item-img"
+                      >
+                        <svg
+                          viewBox="0 0 30.001 30"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            class="a"
+                            d="M28 30H2a2 2 0 01-2-2V2a2 2 0 012-2h26a2 2 0 012 2v26a2 2 0 01-2 2zM17 17v8h8v-8h-8zM5 17v8h8v-8H5zM17 5v8h8V5h-8zM5 5v8h8V5H5z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <section
+                class="table-section-wrapper"
+              >
+                <div
+                  class="table-container"
+                >
+                  <div
+                    class="empty-list"
+                  >
+                    <div
+                      class="empty-list-header"
+                    >
+                      No Accounts retrieved
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </div>
+        </div>
+      </article>
+    </div>
+  </body>,
+  "container": <div>
+    <article
+      class="result-table-container"
+      style="opacity: 0;"
+    >
+      <div
+        class="result-table-main"
+      >
+        <aside
+          class="result-table-filter-bar"
+        >
+          <div
+            class="result-table-filter-bar-header"
+          >
+            <div
+              class="svgrapper"
+            >
+              <svg
+                viewBox="0 0 18 18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="b"
+                  d="M13.119 10.691h-1.214V7.043a.405.405 0 10-.81 0v3.643H9.876a.4.4 0 00-.4.4v6.476a.4.4 0 00.4.4h1.214v2.429a.405.405 0 10.81 0v-2.415h1.214a.4.4 0 00.4-.4v-6.481a.4.4 0 00-.395-.404zM6.643 4.619H5.429V3.4a.4.4 0 10-.81 0v1.219H3.4a.4.4 0 00-.4.4v9.714a.4.4 0 00.4.4h1.219v3.238a.4.4 0 10.81 0v-3.228h1.214a.4.4 0 00.4-.4V5.024a.4.4 0 00-.4-.405zM19.595 7.452h-1.214V3.4a.405.405 0 00-.81 0v4.052h-1.219a.4.4 0 00-.4.4v9.31a.4.4 0 00.4.4h1.214V19.6a.405.405 0 00.81 0v-2.029h1.214a.4.4 0 00.4-.4V7.857a.4.4 0 00-.395-.405z"
+                  transform="translate(-122 -354) translate(119 351)"
+                />
+              </svg>
+            </div>
+            <span>
+              SORT BY
+            </span>
+          </div>
+          <div
+            class="result-table-filter-bar-body"
+          >
+            <div
+              class="filter-bar-body-item active"
+            >
+              <img
+                alt="xwthumbnail"
+                src="contributorsActive.svg"
+              />
+              <span>
+                Users
+              </span>
+            </div>
+            <div
+              class="filter-bar-body-item false"
+            >
+              <img
+                alt="thumbs Up"
+                src="repo.svg"
+              />
+              <span>
+                Orgs
+              </span>
+            </div>
+          </div>
+        </aside>
+        <div
+          class="result-table-body-container"
+        >
+          <section
+            class="result-table-body-container"
+          >
+            <div
+              class="table-body-header"
+            >
+              <h1>
+                Results
+              </h1>
+              <aside
+                class="result-table-filter-bar vertical"
+              >
+                <div
+                  class="result-table-filter-bar-header"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      class="b"
+                      d="M13.119 10.691h-1.214V7.043a.405.405 0 10-.81 0v3.643H9.876a.4.4 0 00-.4.4v6.476a.4.4 0 00.4.4h1.214v2.429a.405.405 0 10.81 0v-2.415h1.214a.4.4 0 00.4-.4v-6.481a.4.4 0 00-.395-.404zM6.643 4.619H5.429V3.4a.4.4 0 10-.81 0v1.219H3.4a.4.4 0 00-.4.4v9.714a.4.4 0 00.4.4h1.219v3.238a.4.4 0 10.81 0v-3.228h1.214a.4.4 0 00.4-.4V5.024a.4.4 0 00-.4-.405zM19.595 7.452h-1.214V3.4a.405.405 0 00-.81 0v4.052h-1.219a.4.4 0 00-.4.4v9.31a.4.4 0 00.4.4h1.214V19.6a.405.405 0 00.81 0v-2.029h1.214a.4.4 0 00.4-.4V7.857a.4.4 0 00-.395-.405z"
+                      transform="translate(-122 -354) translate(119 351)"
+                    />
+                  </svg>
+                  <span>
+                    SORT BY
+                  </span>
+                </div>
+                <div
+                  class="result-table-filter-bar-body"
+                >
+                  <div
+                    class="filter-bar-body-item active"
+                  >
+                    <img
+                      alt="thumbnail"
+                      src="contributorsActive.svg"
+                    />
+                    <span>
+                      Users
+                    </span>
+                  </div>
+                  <div
+                    class="filter-bar-body-item false"
+                  >
+                    <img
+                      alt="thumbs Up"
+                      src="repo.svg"
+                    />
+                    <span>
+                      Orgs
+                    </span>
+                  </div>
+                </div>
+              </aside>
+              <div
+                class="table-view-toggle-wrapper"
+                style="visibility: hidden;"
+              >
+                <span>
+                  VIEW
+                </span>
+                <div
+                  class="table-view-toggle"
+                >
+                  <div
+                    class="table-view-toggle-item left active"
+                  >
+                    <span>
+                      List
+                    </span>
+                    <div
+                      class="table-view-toggle-item-img"
+                    >
+                      <svg
+                        viewBox="0 0 26.25 30"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g
+                          transform="translate(-1)"
+                        >
+                          <path
+                            class="a"
+                            d="M25.375 0h-22.5A1.875 1.875 0 001 1.875v11.25A1.875 1.875 0 002.875 15h22.5a1.875 1.875 0 001.875-1.875V1.875A1.875 1.875 0 0025.375 0z"
+                          />
+                          <path
+                            class="a"
+                            d="M0 0H26V3H0z"
+                            transform="translate(1 19)"
+                          />
+                          <path
+                            class="a"
+                            d="M0 0H26V4H0z"
+                            transform="translate(1 26)"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="table-view-toggle-item "
+                  >
+                    <span>
+                      Grid
+                    </span>
+                    <div
+                      class="table-view-toggle-item-img"
+                    >
+                      <svg
+                        viewBox="0 0 30.001 30"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          class="a"
+                          d="M28 30H2a2 2 0 01-2-2V2a2 2 0 012-2h26a2 2 0 012 2v26a2 2 0 01-2 2zM17 17v8h8v-8h-8zM5 17v8h8v-8H5zM17 5v8h8V5h-8zM5 5v8h8V5H5z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <section
+              class="table-section-wrapper"
+            >
+              <div
+                class="table-container"
+              >
+                <div
+                  class="empty-list"
+                >
+                  <div
+                    class="empty-list-header"
+                  >
+                    No Accounts retrieved
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </article>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

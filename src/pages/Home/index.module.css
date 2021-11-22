@@ -1,0 +1,29 @@
+.search-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50rem;
+  background: var(--background-url) no-repeat center center,
+    var(--background-color);
+  background-size: cover;
+  position: relative;
+}
+
+.pagination-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .pagination-container {
+    background-color: var(--background-color);
+  }
+}

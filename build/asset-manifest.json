@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.935a44c5.chunk.css",
+    "main.js": "/static/js/main.c2c3691f.chunk.js",
+    "main.js.map": "/static/js/main.c2c3691f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ffff1cf6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ffff1cf6.js.map",
+    "static/js/2.863d8852.chunk.js": "/static/js/2.863d8852.chunk.js",
+    "static/js/2.863d8852.chunk.js.map": "/static/js/2.863d8852.chunk.js.map",
+    "static/js/3.3b189bab.chunk.js": "/static/js/3.3b189bab.chunk.js",
+    "static/js/3.3b189bab.chunk.js.map": "/static/js/3.3b189bab.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.935a44c5.chunk.css.map": "/static/css/main.935a44c5.chunk.css.map",
+    "static/js/2.863d8852.chunk.js.LICENSE.txt": "/static/js/2.863d8852.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Metropolis-Regular.67a1988d.otf",
+    "static/media/MaskGroup18.d63cbcc4.svg": "/static/media/MaskGroup18.d63cbcc4.svg",
+    "static/media/contributors.b0436643.svg": "/static/media/contributors.b0436643.svg",
+    "static/media/contributorsActive.55c03de1.svg": "/static/media/contributorsActive.55c03de1.svg",
+    "static/media/repo.5c4216cb.svg": "/static/media/repo.5c4216cb.svg",
+    "static/media/repoActive.178fe5b3.svg": "/static/media/repoActive.178fe5b3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffff1cf6.js",
+    "static/js/2.863d8852.chunk.js",
+    "static/css/main.935a44c5.chunk.css",
+    "static/js/main.c2c3691f.chunk.js"
+  ]
+}

@@ -1,0 +1,11 @@
+.svgWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.svg {
+}
+
+.svg path {
+  transition: all 0.3s ease-in-out;
+}

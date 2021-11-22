@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Google Sans";
+  src: url("./assets/fonts/GoogleSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Google Sans";
+  src: url("./assets/fonts/GoogleSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Google Sans";
+  src: url("./assets/fonts/GoogleSans-Medium.ttf") format("truetype");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("./assets/fonts/metropolis/Metropolis-Regular.otf")
+    format("OpenType");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("./assets/fonts/metropolis/Metropolis-Bold.otf") format("OpenType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("./assets/fonts/metropolis/Metropolis-ExtraLight.otf")
+    format("OpenType");
+  font-weight: lighter;
+}
+
+/* Shared colors on both theme modes */
+:root {
+  --primary-color-global: #27d3a5;
+  --secondary-color: #136650;
+  --white: #ffffff;
+  --dark-gray: #a5a5a8;
+  --light-gray: #d3d3d3;
+  --error-color: #c3002d;
+}
+/* Detect if the user has light color theme, or not selected one */
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  :root {
+    --primary-color: var(--secondary-color);
+    --primary-list-background: var(--light-gray);
+    --text-color: #4b6a9b;
+    --background-color: #ebebeb;
+    --background-url: url(https://res.cloudinary.com/dhgq8vcwi/image/upload/q_auto,f_auto,fl_lossy/v1636657147/mike-yukhtenko-zuueig1w8WI-unsplash.png);
+    --input-bg-hover-color: #d6d6d6;
+    --button-background-gray1: var(--dark-gray);
+    --button-background-gray2: var(--light-gray);
+    --button-background-degree: 270deg;
+    --button-background-active: #2f3236;
+    --button-background-hover: #3e424b;
+    --button-text: #3e424b;
+    --button-text-active: var(--primary-color-global);
+    --border-color: var(--light-gray);
+  }
+}
+/* Detect if the user has dark color theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: var(--primary-color-global);
+    --primary-list-background: #3e424b;
+    --text-color: var(--white);
+    --background-color: #27292c;
+    --background-url: url(https://res.cloudinary.com/dhgq8vcwi/image/upload/q_auto,f_auto,fl_lossy/v1636657228/mike-yukhtenko-a2kD4b0KK4s-unsplash.png);
+    --input-bg-hover-color: #3e424b;
+    --button-background-gray1: #3e424b;
+    --button-background-gray2: #5f6874;
+    --button-background-degree: 90deg;
+    --button-background-active: #27d3a5;
+    --button-background-hover: #3e424b;
+    --button-text: var(--white);
+    --button-text-active: #27292c;
+    --border-color: #3e424b;
+    --container-bg-color: #1e2a47;
+    --header-text-color: var(--white);
+    --input-text-color: var(--white);
+    --theme-mode-hover-color: #90a4d4;
+    --date-joined: var(--white);
+    --user-name-color: var(--white);
+    --stats: var(--white);
+    --box-shadow: none;
+    --link-icon-color: brightness(0) invert(1);
+  }
+}
+/* Switch to light theme by clicking the icon */
+[theme-mode="light"] {
+  --primary-color: var(--secondary-color);
+  --primary-list-background: var(--light-gray);
+  --text-color: #4b6a9b;
+  --background-color: #ebebeb;
+  --background-url: url(https://res.cloudinary.com/dhgq8vcwi/image/upload/q_auto,f_auto,fl_lossy/v1636657147/mike-yukhtenko-zuueig1w8WI-unsplash);
+  --input-bg-hover-color: #d6d6d6;
+  --button-background-gray1: var(--dark-gray);
+  --button-background-gray2: var(--light-gray);
+  --button-background-degree: 270deg;
+  --button-background-active: #2f3236;
+  --button-text: #3e424b;
+  --button-text-active: var(--primary-color-global);
+  --border-color: var(--light-gray);
+  --container-bg-color: #fefefe;
+  --header-text-color: #222731;
+  --input-text-color: #222731;
+  --theme-mode-hover-color: #222731;
+  --date-joined: #697c9a;
+  --user-name-color: #2b3442;
+  --stats: #2b3442;
+  --box-shadow: rgba(70, 96, 187, 0.2);
+  --link-icon-color: none;
+}
+/* Switch to dark theme by clicking the icon */
+[theme-mode="dark"] {
+  --primary-color: var(--primary-color-global);
+  --primary-list-background: #3e424b;
+  --text-color: var(--white);
+  --background-url: url(https://res.cloudinary.com/dhgq8vcwi/image/upload/q_auto,f_auto,fl_lossy/v1636657228/mike-yukhtenko-a2kD4b0KK4s-unsplash.png);
+  --input-bg-hover-color: #3e424b;
+  --button-background-gray1: #3e424b;
+  --button-background-gray2: #5f6874;
+  --button-background-degree: 90deg;
+  --button-background-hover: #3e424b;
+  --button-background-active: #27d3a5;
+  --button-text: var(--white);
+  --button-text-active: #27292c;
+  --background-color: #27292c;
+  --border-color: #3e424b;
+  --container-bg-color: #1e2a47;
+  --header-text-color: var(--white);
+  --input-text-color: var(--white);
+  --theme-mode-hover-color: #90a4d4;
+  --date-joined: var(--white);
+  --user-name-color: var(--white);
+  --stats: var(--white);
+  --box-shadow: none;
+  --link-icon-color: brightness(0) invert(1);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1REM = 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Metropolis;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  background-color: var(--background-color);
+  /* max-width: 73rem; */
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Globals */
+h1,
+h2,
+h3,
+h4 {
+  font-family: Metropolis;
+  margin: 0;
+}
+h1 {
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 3.8rem;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+}
+h3 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+h4 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+p {
+  margin: 0;
+}
+
+/* BACKUP */
+/* :root {
+  --primary-color: #0079ff;
+  --button-hover: #60abff;
+  --white: #ffffff;
+  --text-color: #4b6a9b;
+  --background-color: #f6f8ff;
+  --container-bg-color: #fefefe;
+  --header-text-color: #222731;
+  --input-text-color: #222731;
+  --theme-mode-hover-color: #222731;
+  --date-joined: #697c9a;
+  --user-name-color: #2b3442;
+  --stats: #2b3442;
+  --box-shadow: rgba(70, 96, 187, 0.2);
+  --link-icon-color: none;
+} */
