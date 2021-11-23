@@ -71,8 +71,14 @@ const Header: React.FC = () => {
           </Link>
         )}
 
-        <div className={classes["theme-mode"]}>
-          {/* <h4>{isDarkThemeMode ? "Light" : "Dark"}</h4> */}
+        <div
+          className={`${classes["theme-mode"]} ${
+            classes[`${location.pathname === "/results" ? "result" : ""}`]
+          }`}
+          // style={{
+          //   display: location.pathname === "/results" ? "none" : "flex",
+          // }}
+        >
           <div
             onClick={() => toggleThemeHandler("dark")}
             className={classes["moon-wrapper"]}

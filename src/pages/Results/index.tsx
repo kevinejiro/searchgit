@@ -47,7 +47,7 @@ const Results = () => {
 
   return (
     <motion.main
-      className={classes["search-wrapper"]}
+      className={classes["search-wrapper-results"]}
       transition={transition}
       initial={{ backgroundPosition: "50% 0vh" }}
       animate={{ backgroundPosition: "50% 90vh" }}

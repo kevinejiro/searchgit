@@ -22,8 +22,8 @@
 }
 
 .theme-mode {
-  top: -2rem;
-  left: 2%;
+  top: 0rem;
+  right: 3%;
   position: absolute;
   display: flex;
   align-items: center;
@@ -59,6 +59,10 @@
   font: normal normal bold 26px/31px Metropolis;
 }
 
+.result {
+  display: none;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .theme-mode {
@@ -70,7 +74,8 @@
     column-gap: 1.6rem;
     user-select: none;
   }
-  .search-icon-wrapper {
+  .search-icon-wrapper,
+  .result {
     display: flex;
   }
 
@@ -88,7 +93,8 @@
     column-gap: 1.6rem;
     user-select: none;
   }
-  .search-icon-wrapper {
+  .search-icon-wrapper,
+  .result {
     display: flex;
   }
   .header {

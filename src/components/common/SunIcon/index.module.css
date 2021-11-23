@@ -1,9 +1,11 @@
 .svgWrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .svg {
+  width: 100%;
 }
 
 .svg path {
