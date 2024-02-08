@@ -1,7 +1,5 @@
 # GitHub user search app
 
-Frontend assessment for (https://www.https://scal.io). Coded by Ejiro Ogidigbo.
-
 ## Table of contents
 
 - [Overview](#overview)
